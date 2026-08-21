@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Anna Zavadski — research, projects, and experience.">
+  <title>Anna Zavadski</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a class="mark" href="#home" aria-label="Home">AZ</a>
+    <button class="menu-button" aria-expanded="false" aria-controls="menu"><span class="sr-only">Toggle navigation</span><i></i><i></i></button>
+    <nav><ul id="menu">
+      <li><a href="#about">About</a></li><li><a href="#research">Research</a></li>
+      <li><a href="#projects">Projects</a></li><li><a href="#documents">Résumé / CV</a></li><li><a href="#contact">Contact</a></li>
+    </ul></nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="backdrop" aria-hidden="true"><span>Ideas</span><span>In</span><span>Motion</span></div>
+      <div class="orbit-stage" data-orbit-stage>
+        <div class="portrait" role="img" aria-label="Portrait placeholder"><span>Portrait</span></div>
+        <div class="orbit" aria-label="Portfolio sections">
+          <a style="--i:0" href="#about">About</a><a style="--i:1" href="#research">Research</a>
+          <a style="--i:2" href="#projects">Projects</a><a style="--i:3" href="#documents">Résumé</a><a style="--i:4" href="#contact">Contact</a>
+        </div>
+      </div>
+      <a class="explore" href="#about">Explore ↓</a>
+    </section>
+
+    <section class="section" id="about"><span class="number">01</span><h2>About</h2><div class="content intro">
+      <p>MIT student pursuing AI and Decision Making and Mathematics, with a minor in Finance.</p>
+      <dl><div><dt>Languages</dt><dd>English, Russian, Spanish</dd></div><div><dt>Tools</dt><dd>Python, Java, HTML/CSS, JavaScript, Git, ArcGIS, Excel, SpectraWizard</dd></div></dl>
+    </div></section>
+
+    <section class="section" id="research"><span class="number">02</span><h2>Research</h2><div class="content cards">
+      <article><small>MIT School of Engineering / SHASS</small><h3>Science-fiction invention datasets</h3><p>Annotated source material and reviewed structured datasets for machine-learning research.</p></article>
+      <article><small>Halmos College of Arts and Sciences</small><h3>Heavy-metal food analysis</h3><p>Configured spectroscopy equipment, ran experiments, and organized analytical data.</p></article>
+      <article><small>Independent Research</small><h3>Harmful algal bloom modeling</h3><p>Built Python models connecting meteorological variables to bloom formation and intensity.</p></article>
+    </div></section>
+
+    <section class="section" id="projects"><span class="number">03</span><h2>Projects</h2><div class="content cards">
+      <article><small>Climate research</small><h3>South Florida community disparity maps</h3></article>
+      <article><small>Robotics</small><h3>Humanoid NAO robot programming</h3></article>
+      <article><small>Community education</small><h3>Girls Who Code chapter and curriculum</h3></article>
+    </div></section>
+
+    <section class="section" id="documents"><span class="number">04</span><h2>Résumé / CV</h2><div class="content links">
+      <a href="#" aria-disabled="true">Résumé <span>Coming later</span></a><a href="#" aria-disabled="true">CV <span>Coming later</span></a>
+    </div></section>
+
+    <section class="section" id="contact"><span class="number">05</span><h2>Contact</h2><address class="content links">
+      <a href="mailto:zava@mit.edu">zava@mit.edu <span>↗</span></a><a href="https://github.com/AnnaZelegend">GitHub <span>↗</span></a>
+    </address></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
